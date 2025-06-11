@@ -288,6 +288,7 @@ body {
 }
 
 .menu-item {
+    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -329,6 +330,7 @@ body {
 }
 
 .about-title {
+  text-align: center;
   color: #ff4c4c;
   margin-bottom: 30px;
 }
