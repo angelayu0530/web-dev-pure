@@ -402,10 +402,10 @@ body {
   }
 
 .contact-container {
-  padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 20px;
+  padding: 20px;
 }
 
 .contact-form-container,
@@ -417,12 +417,53 @@ body {
   .contact-container {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   .contact-form-container,
   .map-container {
     width: 48%;
   }
+}
+
+.contact-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #c8102e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #a60d26;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+}
 }
   h1 {
     font-size: 2rem;
@@ -454,7 +495,7 @@ body {
   .menu-header {
     font-size: 2rem;
   }
-}
+
 
 @media (max-width: 480px) {
   .nav-left .logo {
