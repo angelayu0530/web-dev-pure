@@ -129,7 +129,7 @@ body {
 }
 
 .about-content h2 {
-  color: white;
+  color: #ff4c4c;
   margin-bottom: 1.5rem;
 }
 
@@ -188,7 +188,7 @@ body {
 
 .map-container h2 {
     margin-bottom: 20px;
-    color: white;  
+    color: #ff4c4c;  
 }
 
 .slider-container {
@@ -404,7 +404,7 @@ textarea {
 
 .menu-title {
     text-align: center;
-    color: #fff;
+    color: #ff4c4c;
     font-size: 1.5em;
     margin-bottom: 20px;
 }
