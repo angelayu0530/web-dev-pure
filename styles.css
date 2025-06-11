@@ -301,6 +301,7 @@ body {
 }
 
 .item-name {
+   color: #ffd700;
     font-size: 1.2rem;
     font-weight: bold;
     display: block;
@@ -729,6 +730,7 @@ textarea {
   }
 
   .menu-header {
+    color: #ff4c4c;
     font-size: 1.8rem;
   }
 
@@ -737,6 +739,7 @@ textarea {
   }
 
   .item-name {
+    color: #ffd700;
     font-size: 1.1rem;
   }
 
@@ -809,6 +812,7 @@ textarea {
   }
 
   .menu-header {
+    color: #ff4c4c;
     font-size: 1.6rem;
   }
 
